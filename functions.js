@@ -48,6 +48,7 @@ function setServings1()
   	lollipop_cost.innerHTML = lollipop*options[1].value;
   	icecandy_cost.innerHTML = icecandy*options[1].value;
   	savings_amount.innerHTML = icecandy*options[1].value-lollipop*options[1].value;
+    // options[1].focus();
 }
 
 function setServings2()
