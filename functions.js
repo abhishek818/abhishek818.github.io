@@ -26,51 +26,88 @@ options[1].onclick = setServings1;
 options[2].onclick = setServings2;
 options[3].onclick = setServings3;
 
+options[2].classList.add("focus");
+
 var x = document.getElementsByClassName("item-quantity");
 
 function setServings0()
 {
-	for (i = 0; i < x.length; i++) 
-	{
+	  for(i = 0; i < x.length; i++) 
+	  {
     	x[i].innerHTML = options[0].value;
-  	}
+    }
+
   	lollipop_cost.innerHTML = lollipop*options[0].value;
   	icecandy_cost.innerHTML = icecandy*options[0].value;
   	savings_amount.innerHTML = icecandy*options[0].value-lollipop*options[0].value;
+    
+    options[0].classList.add("focus");
+
+    for(i = 0; i < options.length; i++) 
+    {
+      if(i!=0)
+      options[i].classList.remove("focus");
+    } 
 }
 
 function setServings1()
 {
-	for (i = 0; i < x.length; i++) 
-	{
+	  for(i = 0; i < x.length; i++) 
+	  {
     	x[i].innerHTML = options[1].value;
   	}
-  	lollipop_cost.innerHTML = lollipop*options[1].value;
+  	
+    lollipop_cost.innerHTML = lollipop*options[1].value;
   	icecandy_cost.innerHTML = icecandy*options[1].value;
   	savings_amount.innerHTML = icecandy*options[1].value-lollipop*options[1].value;
     // options[1].focus();
+    options[1].classList.add("focus");
+
+    for(i = 0; i < options.length; i++) 
+    {
+      if(i!=1)
+      options[i].classList.remove("focus");
+    } 
 }
 
 function setServings2()
 {
-	for (i = 0; i < x.length; i++) 
-	{
+	  for (i = 0; i < x.length; i++) 
+	  {
     	x[i].innerHTML = options[2].value;
   	}
-  	lollipop_cost.innerHTML = lollipop*options[2].value;
+  	
+    lollipop_cost.innerHTML = lollipop*options[2].value;
   	icecandy_cost.innerHTML = icecandy*options[2].value;
   	savings_amount.innerHTML = icecandy*options[2].value-lollipop*options[2].value;
+
+    options[2].classList.add("focus");
+
+    for(i = 0; i < options.length; i++) 
+    {
+      if(i!=2)
+      options[i].classList.remove("focus");
+    } 
 }
 
 function setServings3()
 {
-	for (i = 0; i < x.length; i++) 
-	{
+  	for (i = 0; i < x.length; i++) 
+	  {
     	x[i].innerHTML = options[3].value;
   	}
-  	lollipop_cost.innerHTML = lollipop*options[3].value;
+  	
+    lollipop_cost.innerHTML = lollipop*options[3].value;
   	icecandy_cost.innerHTML = icecandy*options[3].value;
   	savings_amount.innerHTML = icecandy*options[3].value-lollipop*options[3].value;
+
+    options[3].classList.add("focus");
+
+    for(i = 0; i < options.length; i++) 
+    {
+      if(i!=3)
+      options[i].classList.remove("focus");
+    } 
 }
 
 

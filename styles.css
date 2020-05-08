@@ -155,10 +155,13 @@ body
   /*text-align: right;*/
 }
 
-.lollipop .lollipop_third .servings .servings_quantity:focus
+.focus
 {
-  border-color: #00b5f4;
-	border-width: 4px;
+  background-color: #FFFFFF;
+  border: 3px solid #0099FF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+  width: 125px;
+  height: 46px;
 }
 
 /*.lollipop .lollipop_third .servings .servings_quantity:nth-child(3)
