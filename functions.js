@@ -117,7 +117,6 @@ var duration_option = document.getElementsByClassName("duration-option");
 
 function setDuration()
 {
-	console.log("off");
 	lollipop = (duration == 0) ? 1:0.5;
 	icecandy = (duration == 0) ? 2:1;
 	duration = (duration == 0) ? 1:0;
