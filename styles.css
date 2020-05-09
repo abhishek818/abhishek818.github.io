@@ -1,30 +1,30 @@
 body
 {
 	font-family: AktivGrotesk;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .lollipop .lollipop_first
 {
-	padding-top: 166px;
-	padding-left: 220px;
-	padding-right: 731px;
+	padding-top: 12.5%;
+	padding-left: 16.5%;
 }
 
 .lollipop .lollipop_first .topic
 {
 	color: #31373D;
-	font-size: 50px;
+	font-size: 3.13em;
 	font-weight: 700;
-	line-height: 58px;
-	width: 489px;
+	/*line-height: 10%;*/
+	width: 40%;
 	text-align: left;
 }	
 
 .lollipop .lollipop_first .topic .image
 {
-	margin-top: -120px;
-	padding-left: 600px;
-	padding-top: -100px;
+	margin-top: -27%;
+	margin-left: 134%;
 }	
 
 .lollipop .lollipop_first .desc
@@ -34,7 +34,7 @@ body
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  width: 489px;
+  width: 42%;
   text-align: left;
   padding-top: 20px;
 }
@@ -42,36 +42,32 @@ body
 .lollipop .lollipop_first .buttons
 {
 	display: inline-flex;
-	margin-top: 10px;
+	margin-top: 0.9%;
+  width: 280%;
+  height: 48px;
+  text-align: center;
 }
 
-.lollipop .buttons .first
+.lollipop .lollipop_first .buttons .first
 {  
     background-color: #0099FF;
     border-radius: 3px;
-    width: 220px;
-    height: 48px;
+    width: 7.05%;
     color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    text-align: center;
+    font-weight: 700;  
+    font-size: 1em;
 }  
 
 .lollipop .lollipop_first .buttons .second
 {
     border: 2px solid #0099FF;
     border-radius: 3px;
-    width: 222px;
-    height: 48px;
-    margin-left: 15px;
+    width: 6.8%;
+    margin-left: 0.5%;
     background-color: white;
-    font-size: 16px;
     font-weight: 700;
-    line-height: 19px;
-    width: 211px;
-    text-align: center;
     color: #31373D;
+    font-size: 1em;
 }  
 
 .lollipop .lollipop_second
@@ -482,3 +478,24 @@ input[type="checkbox"]:checked:before
 	  padding-left: 486px;
 	  margin-top: -380px;
 }	
+
+.buttons-last
+{
+  /*margin-top: 0.9%;*/
+  background-color: #0099FF;
+  border-radius: 3px;
+  width: 220px;
+  height: 48px;
+}
+
+.last-text
+{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+}
+
+
+
