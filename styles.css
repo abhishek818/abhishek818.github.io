@@ -16,7 +16,6 @@ body
 	color: #31373D;
 	font-size: 3.13em;
 	font-weight: 700;
-	/*line-height: 10%;*/
 	width: 40%;
 	text-align: left;
 }	
@@ -29,14 +28,13 @@ body
 
 .lollipop .lollipop_first .desc
 {
-	margin-top: -65px;
 	color: #31373D;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   width: 42%;
   text-align: left;
-  padding-top: 20px;
+  margin-top: -4%;
 }
 
 .lollipop .lollipop_first .buttons
@@ -72,21 +70,20 @@ body
 
 .lollipop .lollipop_second
 {
-	padding-top: 165px;
-	padding-left: 87px;
-	padding-right: 86px;
+	padding-top: 12.3%;
+	padding-left: 6.5%;
 }
 
 .lollipop .lollipop_second .box
 {
 	background-image: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%);
-  width: 1160px;
+  width: 93.2%;
   height: 409px;
 }
 
 .lollipop .lollipop_second .box .text
 {
-	  padding-top: 35px;
+	  padding-top: 3%;
 	  color: #31373D;
     font-size: 24px;
     font-weight: 700;
@@ -96,8 +93,10 @@ body
 
 .lollipop .lollipop_second .box .image
 {
-    margin-top: 30px;
-    margin-left: 215px;
+    margin-top: 2.6%;
+    margin-left: 18.5%;
+    width: 63.5%;
+    height: 551px;
 }
 
 .lollipop .lollipop_third .topic
@@ -107,8 +106,8 @@ body
     font-weight: 700;
     line-height: 34px;
     /*text-align: center;*/
-	  padding-top: 340px;
-    padding-left: 573px;
+	  padding-top: 25.6%;
+    padding-left: 43%;
 }
 
 .lollipop .lollipop_third .desc
@@ -117,9 +116,8 @@ body
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    padding-left: 38%;
     width: 449px;
-    /*text-align: center;*/
-    padding-left: 506px;
 }
 
 .lollipop .lollipop_third .desc .extra
@@ -130,7 +128,7 @@ body
 
 .lollipop .lollipop_third .servings
 {
-	  background-color: #FFFFFF;
+    background-color: #FFFFFF;
     width: 500px;
     height: 46px;
     margin-left: 470px;
