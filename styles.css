@@ -117,7 +117,7 @@ body
     font-weight: 400;
     line-height: 24px;
     padding-left: 38%;
-    width: 449px;
+    width: 30%;
 }
 
 .lollipop .lollipop_third .desc .extra
@@ -129,16 +129,16 @@ body
 .lollipop .lollipop_third .servings
 {
     background-color: #FFFFFF;
-    width: 500px;
+    width: 40%;
     height: 46px;
-    margin-left: 470px;
-    margin-top: 35px;
+    margin-left: 35.2%;
+    margin-top: 2.5%;
     display: flex;
 }
 
 .lollipop .lollipop_third .servings .servings_quantity
 {
-	width: 125px;
+	width: 23.5%;
 	height: 46px;
 	background-color: white;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
@@ -149,13 +149,16 @@ body
   /*text-align: right;*/
 }
 
+.lollipop .lollipop_third .servings .servings_quantity:hover
+{
+  cursor: pointer;
+}
+
 .focus
 {
   background-color: #FFFFFF;
   border: 3px solid #0099FF;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
-  width: 125px;
-  height: 46px;
 }
 
 /*.lollipop .lollipop_third .servings .servings_quantity:nth-child(3)
@@ -170,22 +173,20 @@ body
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-    width: 72px;
     text-align: left;
-    padding-left: 623px;
-    padding-top: -30px;
- }   
+    padding-left: 46.8%;
+}   
 
 
 .lollipop .lollipop_third .time .text
 {
-	  margin-top: 44px;
+	  margin-top: 6%;
 }
 
 .lollipop .lollipop_third .time .text2
 {
-	  margin-top: -42px;
-	  margin-left: 135px;
+	  margin-top: -6%;
+	  margin-left: 18.8%;
 }
 
 .lollipop .lollipop_third .time .offer
@@ -195,15 +196,12 @@ body
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    width: 60px;
     text-align: left;
-	/*margin-left: 145px;*/
 }
 
 .lollipop .lollipop_third .center
 {
-    /*position: absolute;*/
-    margin-left: 691px;
+    margin-left: 51.8%;
     padding-bottom: 20px;
     transform: translate(-50%,-50%);
 }
@@ -214,7 +212,7 @@ input[type="checkbox"]
   background-color: #D8D8D8;
   border-radius: 7px;
   opacity: 0.6388346354166666;
-  width: 44px;
+  width: 3%;
   height: 14px;
   position: absolute;
   -webkit-appearance: none;
@@ -237,7 +235,7 @@ input[type="checkbox"]:before
 
 input[type="checkbox"]:checked:before
 {
-   left: 20px;
+ left: 20px;
 }
 
 
@@ -245,11 +243,17 @@ input[type="checkbox"]:checked:before
 {
 	  background-color: #FFFFFF;
   	box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
-  	width: 462px;
+  	width: 48.5%;
   	height: 200px;
-  	margin-left: 381px;
-  	margin-top: 36px;
+  	margin-left: 28.5%;
+  	margin-top: 3%;
   	display: flex;
+}
+
+.lollipop .lollipop_third .price .box-1,
+.lollipop .lollipop_third .price .box-2
+{
+  padding-right: 12%;
 }
 
 .lollipop .lollipop_third .price .box-1 .item,
@@ -259,9 +263,9 @@ input[type="checkbox"]:checked:before
   	font-size: 20px;
   	font-weight: 700;
   	line-height: 28px;
-  	padding-top: 41px;
+  	padding-top: 33%;
   	text-align: left;
-  	padding-left: 44px;
+  	padding-left: 34%;
 }
 
 .lollipop .lollipop_third .price .wall
@@ -269,7 +273,7 @@ input[type="checkbox"]:checked:before
     background-color: #F9F9F9;
   	width: 2px;
   	height: 202px;
-  	margin-left: 30px;
+  	margin-left: 4%;
 }
 
 .lollipop .lollipop_third .price .box-1 .item-1_price,
@@ -277,7 +281,7 @@ input[type="checkbox"]:checked:before
 .lollipop .lollipop_third .price .box-1 .amount,
 .lollipop .lollipop_third .price .box-2 .amount
 {
-	  padding-left: 44px;
+	  padding-left: 34%;
 }
 
 .lollipop .lollipop_third .price .box-1 .item-1_price,
@@ -288,7 +292,8 @@ input[type="checkbox"]:checked:before
     font-weight: 700;
     line-height: 34px;
     text-align: left;
-    padding-top: 28px;
+    padding-top: 22%;
+    display: flex;
 }
 
 .lollipop .lollipop_third .price .box-1 .item-1_price .duration,
@@ -299,8 +304,8 @@ input[type="checkbox"]:checked:before
     font-style: italic;
     font-weight: 400;
     line-height: 22px;
-    width: 78px;
-    text-align: left;
+    display: flex;
+    margin-top: 13%;
 }
 
 .lollipop .lollipop_third .price .box-1 .amount,
@@ -310,7 +315,7 @@ input[type="checkbox"]:checked:before
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-    width: 156px;
+    width: 100%;
     text-align: left;
 }
 
@@ -319,9 +324,9 @@ input[type="checkbox"]:checked:before
 	  background-color: #FFFFFF;
   	box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
  	  height: 230px;
- 	  width: 214px;
-  	/*padding-right: 140px;*/
+ 	  width: 33.33%;
   	margin-top: -15px;
+    margin-right: -1%;
 }
 
 .lollipop .lollipop_third .price .savings .desc
@@ -330,10 +335,9 @@ input[type="checkbox"]:checked:before
   	font-size: 20px;
   	font-weight: 700;
     line-height: 28px;
-  	text-align: left;
-  	/*padding-right: 700px;*/
-  	padding-left: 23px;
+  	padding-left: 11%;
   	padding-top: 50px;
+    width: 100%;
 }
 
 .lollipop .lollipop_third .price .savings .saved-money
@@ -343,8 +347,8 @@ input[type="checkbox"]:checked:before
   	font-weight: 700;
   	line-height: 34px;
   	text-align: left;
-  	padding-left: 23px;
-  	padding-top: 12px;
+  	padding-left: 11%;
+  	padding-top: 5%;
 }
 
 .lollipop .lollipop_third .price .savings .duration
@@ -354,14 +358,13 @@ input[type="checkbox"]:checked:before
     font-style: italic;
     font-weight: 400;
     line-height: 22px;
-    width: 78px;
     text-align: left;
-    padding-left: 23px;
+    padding-left: 11%;
 }
 
 .lollipop .lollipop_fourth
 {
-	  padding-top: 150px;
+	  padding-top: 12%;
 }
 
 .lollipop .lollipop_fourth .customers
@@ -375,8 +378,8 @@ input[type="checkbox"]:checked:before
 }
 .lollipop .lollipop_fourth img
 {
-	  padding-top: 69px;
-	  padding-left: 360px;
+	  padding-top: 5%;
+	  padding-left: 27%;
   	/*border-radius: 50%;*/
 }
 
@@ -387,10 +390,10 @@ input[type="checkbox"]:checked:before
   	font-style: italic;
   	font-weight: 500;
   	line-height: 22px;
-  	width: 366px;
   	text-align: left;
-  	margin-top: -179px;
-  	margin-left: 580px;
+  	margin-top: -13%;
+  	margin-left: 43.5%;
+    height: 100px;
 }
 
 .lollipop .lollipop_fourth .quotes
@@ -412,7 +415,7 @@ input[type="checkbox"]:checked:before
   	font-weight: 700;
   	line-height: 34px;
   	text-align: left;
-  	padding-left: 600px;
+  	padding-left: 45%;
 }
 
 .lollipop .lollipop_fourth .location
@@ -421,37 +424,44 @@ input[type="checkbox"]:checked:before
   	font-size: 20px;
   	font-weight: 400;
   	line-height: 34px;
-  	padding-left: 600px;
+  	padding-left: 45%;
 }
 
 .lollipop .lollipop_fourth .oval
 {
 	  display: flex;
-	  margin-top: 64px;
+	  margin-top: 4%;
+    margin-left: 44%;
 }
 
-.lollipop .lollipop_fourth .oval .oval-active
+.lollipop .lollipop_fourth .oval .sample-oval
+{
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+    margin-left: 14px;
+    color: red;
+}
+
+.lollipop .lollipop_fourth .oval .sample-oval:hover
+{
+  cursor: pointer;
+}
+
+.oval-dead
+{
+   background-image: linear-gradient(221.9deg, #D5E2E9 0%, #EAEEF1 100%);
+}
+
+.oval-active
 {
 	  background-color: #0099FF;
-  	border-radius: 100%;
-  	width: 9px;
-  	height: 9px;
-  	margin-left: 600px;
-}
-
-.lollipop .lollipop_fourth .oval .oval-dead
-{
-	  background-image: linear-gradient(221.9deg, #D5E2E9 0%, #EAEEF1 100%);
-  	border-radius: 100%;
-  	width: 9px;
-  	height: 9px;
-  	margin-left: 14px;
 }
 
 .lollipop .lollipop_fourth .experts
 {
-	  padding-top: 160px;
-	  padding-left: 333px;
+	  padding-top: 12%;
+	  padding-left: 25%;
 	  color: #31373D;
   	font-size: 30px;
   	font-weight: 700;
@@ -465,16 +475,16 @@ input[type="checkbox"]:checked:before
   	font-size: 16px;
   	font-weight: 400;
   	line-height: 22px;
-  	width: 387px;
+  	/*width: 100%;*/
   	text-align: left;
-  	padding-top: 16px;
-  	margin-bottom: 36px;
+  	padding-top: 12px;
+  	margin-bottom: 4%;
 }
 
 .lollipop .lollipop_fourth .experts img
 {
-	  padding-left: 486px;
-	  margin-top: -380px;
+	  padding-left: 48.5%;
+	  margin-top: -40%;
 }	
 
 .buttons-last
@@ -482,7 +492,7 @@ input[type="checkbox"]:checked:before
   /*margin-top: 0.9%;*/
   background-color: #0099FF;
   border-radius: 3px;
-  width: 220px;
+  width: 22%;
   height: 48px;
 }
 
