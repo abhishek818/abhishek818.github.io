@@ -206,7 +206,7 @@ body
     transform: translate(-50%,-50%);
 }
 
-input[type="checkbox"]
+.lollipop .lollipop_third input[type="checkbox"]
 {
   margin-top: -15px;
   background-color: #D8D8D8;
@@ -220,7 +220,7 @@ input[type="checkbox"]
   transition: .2s;
 }
 
-input[type="checkbox"]:before
+.lollipop .lollipop_third input[type="checkbox"]:before
 {
   content: '';
   background-color: #0099FF;
@@ -233,7 +233,7 @@ input[type="checkbox"]:before
   transition: .4s;
 }
 
-input[type="checkbox"]:checked:before
+.lollipop .lollipop_third input[type="checkbox"]:checked:before
 {
  left: 20px;
 }
@@ -246,15 +246,15 @@ input[type="checkbox"]:checked:before
   	width: 48.5%;
   	height: 200px;
   	margin-left: 28.5%;
-  	margin-top: 3%;
+  	margin-top: 36px;
   	display: flex;
 }
 
-.lollipop .lollipop_third .price .box-1,
+/*.lollipop .lollipop_third .price .box-1,
 .lollipop .lollipop_third .price .box-2
 {
   padding-right: 12%;
-}
+}*/
 
 .lollipop .lollipop_third .price .box-1 .item,
 .lollipop .lollipop_third .price .box-2 .item
@@ -263,9 +263,9 @@ input[type="checkbox"]:checked:before
   	font-size: 20px;
   	font-weight: 700;
   	line-height: 28px;
-  	padding-top: 33%;
+  	padding-top: 41px;
   	text-align: left;
-  	padding-left: 34%;
+  	padding-left: 44px;
 }
 
 .lollipop .lollipop_third .price .wall
@@ -273,7 +273,7 @@ input[type="checkbox"]:checked:before
     background-color: #F9F9F9;
   	width: 2px;
   	height: 202px;
-  	margin-left: 4%;
+  	margin-left: 30px;
 }
 
 .lollipop .lollipop_third .price .box-1 .item-1_price,
@@ -281,7 +281,7 @@ input[type="checkbox"]:checked:before
 .lollipop .lollipop_third .price .box-1 .amount,
 .lollipop .lollipop_third .price .box-2 .amount
 {
-	  padding-left: 34%;
+	  padding-left: 44px;
 }
 
 .lollipop .lollipop_third .price .box-1 .item-1_price,
@@ -292,8 +292,8 @@ input[type="checkbox"]:checked:before
     font-weight: 700;
     line-height: 34px;
     text-align: left;
-    padding-top: 22%;
-    display: flex;
+    padding-top: 28px;
+    /*display: flex;*/
 }
 
 .lollipop .lollipop_third .price .box-1 .item-1_price .duration,
@@ -304,8 +304,7 @@ input[type="checkbox"]:checked:before
     font-style: italic;
     font-weight: 400;
     line-height: 22px;
-    display: flex;
-    margin-top: 13%;
+     width: 78px;
 }
 
 .lollipop .lollipop_third .price .box-1 .amount,
@@ -315,7 +314,7 @@ input[type="checkbox"]:checked:before
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-    width: 100%;
+    width: 156px;
     text-align: left;
 }
 
@@ -324,9 +323,8 @@ input[type="checkbox"]:checked:before
 	  background-color: #FFFFFF;
   	box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
  	  height: 230px;
- 	  width: 33.33%;
+ 	  width: 214px;
   	margin-top: -15px;
-    margin-right: -1%;
 }
 
 .lollipop .lollipop_third .price .savings .desc
@@ -335,7 +333,7 @@ input[type="checkbox"]:checked:before
   	font-size: 20px;
   	font-weight: 700;
     line-height: 28px;
-  	padding-left: 11%;
+  	padding-left: 23px;
   	padding-top: 50px;
     width: 100%;
 }
@@ -347,8 +345,8 @@ input[type="checkbox"]:checked:before
   	font-weight: 700;
   	line-height: 34px;
   	text-align: left;
-  	padding-left: 11%;
-  	padding-top: 5%;
+  	padding-left: 23px;
+  	padding-top: 12px;
 }
 
 .lollipop .lollipop_third .price .savings .duration
@@ -359,7 +357,7 @@ input[type="checkbox"]:checked:before
     font-weight: 400;
     line-height: 22px;
     text-align: left;
-    padding-left: 11%;
+    padding-left: 23px;
 }
 
 .lollipop .lollipop_fourth
@@ -408,7 +406,7 @@ input[type="checkbox"]:checked:before
   	margin-left: 5px;
 }
 
-.lollipop .lollipop_fourth .name
+.lollipop .lollipop_fourth .customer-name
 {
 	  color: #31373D;
   	font-size: 20px;
@@ -485,6 +483,7 @@ input[type="checkbox"]:checked:before
 {
 	  padding-left: 48.5%;
 	  margin-top: -40%;
+    /*width: 100%;*/
 }	
 
 .buttons-last

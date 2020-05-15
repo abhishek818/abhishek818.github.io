@@ -1,14 +1,14 @@
-// $(document).ready(function()
-// {
-// 	$('.switch').click(function()
-// 	{
-// 		$(this).toggleClass("switchOn");
-// 	});
-// });
+// // $(document).ready(function()
+// // {
+// // 	$('.switch').click(function()
+// // 	{
+// // 		$(this).toggleClass("switchOn");
+// // 	});
+// // });
 
- // document.addEventListener("DOMContentLoaded", function(event) { 
- //    document.getElementsByClassName("default_clicked")[0].focus();
- // });
+//  // document.addEventListener("DOMContentLoaded", function(event) { 
+//  //    document.getElementsByClassName("default_clicked")[0].focus();
+//  // });
 
 var lollipop_cost = document.getElementsByClassName("lollipop-cost")[0];
 var icecandy_cost = document.getElementsByClassName("icecandy-cost")[0];
@@ -34,12 +34,12 @@ function setServings0()
 {
 	  for(i = 0; i < x.length; i++) 
 	  {
-    	x[i].innerHTML = options[0].value;
+    	x[i].innerText = options[0].value;
     }
 
-  	lollipop_cost.innerHTML = lollipop*options[0].value;
-  	icecandy_cost.innerHTML = icecandy*options[0].value;
-  	savings_amount.innerHTML = icecandy*options[0].value-lollipop*options[0].value;
+  	lollipop_cost.innerText = lollipop*options[0].value;
+  	icecandy_cost.innerText = icecandy*options[0].value;
+  	savings_amount.innerText = icecandy*options[0].value-lollipop*options[0].value;
     
     options[0].classList.add("focus");
 
@@ -54,12 +54,12 @@ function setServings1()
 {
 	  for(i = 0; i < x.length; i++) 
 	  {
-    	x[i].innerHTML = options[1].value;
+    	x[i].innerText = options[1].value;
   	}
   	
-    lollipop_cost.innerHTML = lollipop*options[1].value;
-  	icecandy_cost.innerHTML = icecandy*options[1].value;
-  	savings_amount.innerHTML = icecandy*options[1].value-lollipop*options[1].value;
+    lollipop_cost.innerText = lollipop*options[1].value;
+  	icecandy_cost.innerText = icecandy*options[1].value;
+  	savings_amount.innerText = icecandy*options[1].value-lollipop*options[1].value;
     // options[1].focus();
     options[1].classList.add("focus");
 
@@ -74,12 +74,12 @@ function setServings2()
 {
 	  for (i = 0; i < x.length; i++) 
 	  {
-    	x[i].innerHTML = options[2].value;
+    	x[i].innerText = options[2].value;
   	}
   	
-    lollipop_cost.innerHTML = lollipop*options[2].value;
-  	icecandy_cost.innerHTML = icecandy*options[2].value;
-  	savings_amount.innerHTML = icecandy*options[2].value-lollipop*options[2].value;
+    lollipop_cost.innerText = lollipop*options[2].value;
+  	icecandy_cost.innerText = icecandy*options[2].value;
+  	savings_amount.innerText = icecandy*options[2].value-lollipop*options[2].value;
 
     options[2].classList.add("focus");
 
@@ -94,12 +94,12 @@ function setServings3()
 {
   	for (i = 0; i < x.length; i++) 
 	  {
-    	x[i].innerHTML = options[3].value;
+    	x[i].innerText = options[3].value;
   	}
   	
-    lollipop_cost.innerHTML = lollipop*options[3].value;
-  	icecandy_cost.innerHTML = icecandy*options[3].value;
-  	savings_amount.innerHTML = icecandy*options[3].value-lollipop*options[3].value;
+    lollipop_cost.innerText = lollipop*options[3].value;
+  	icecandy_cost.innerText = icecandy*options[3].value;
+  	savings_amount.innerText = icecandy*options[3].value-lollipop*options[3].value;
 
     options[3].classList.add("focus");
 
@@ -122,19 +122,19 @@ function setDuration()
 	duration = (duration == 0) ? 1:0;
 	for (i = 0; i < duration_option.length; i++) 
 	{
-    	duration_option[i].innerHTML = (duration == 0) ? "year":"month";
+    	duration_option[i].innerText = (duration == 0) ? "year":"month";
   	}
-  	lollipop_cost.innerHTML = lollipop*x[0].innerHTML; 
-  	icecandy_cost.innerHTML = icecandy*x[1].innerHTML;
-  	savings_amount.innerHTML = icecandy*x[1].innerHTML-lollipop*x[0].innerHTML; 
+  	lollipop_cost.innerText = lollipop*x[0].innerText; 
+  	icecandy_cost.innerText = icecandy*x[1].innerText;
+  	savings_amount.innerText = icecandy*x[1].innerText-lollipop*x[0].innerText; 
 }
 
-var i=0;
+var k=0;
 var images = [];
 var time = 1500;
 var ovals = document.getElementsByClassName("sample-oval");
 var opinions = document.getElementsByClassName("customer-quotes");
-var names = document.getElementsByClassName("name");
+var names = document.getElementsByClassName("customer-name");
 var locations = document.getElementsByClassName("location");
 
 var customer_names = ["Raja Ram", "Kane", "Abhishek", "Fyle"];
@@ -153,26 +153,26 @@ images[3] = "./assets/images/profile4.png";
 
 function changeCustomers()
 {
-  document.slide.src = images[i];
+  document.slide.src = images[k];
 
-  ovals[i].classList.add("oval-active"); 
-  ovals[i].classList.remove("oval-dead");
+  ovals[k].classList.add("oval-active"); 
+  ovals[k].classList.remove("oval-dead");
   
-  opinions[0].innerHTML = comments[i];
-  names[0].innerHTML = customer_names[i];
-  locations[0].innerHTML = customer_locations[i];
+  opinions[0].innerHTML = comments[k];
+  names[0].innerHTML = customer_names[k];
+  locations[0].innerHTML = customer_locations[k];
 
-    if(i>0)   
-    ovals[i-1].classList.add("oval-dead");  
-    if(i==0)
+    if(k>0)   
+    ovals[k-1].classList.add("oval-dead");  
+    if(k==0)
      ovals[ovals.length-1].classList.add("oval-dead"); 
   
-  if(i < images.length - 1)
+  if(k < images.length - 1)
   {
-    i++;
+    k++;
   }
   else
-    i=0;
+    k=0;
 // if(ovals[i].classList.contains("oval-active"))
 }
 
